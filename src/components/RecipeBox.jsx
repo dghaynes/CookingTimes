@@ -15,8 +15,7 @@ const RecipeBox = () => {
             fetchRecipes();
         }
 
-    }, [user, fetchRecipes]);
-
+    }, [user]);
 
 
     return (

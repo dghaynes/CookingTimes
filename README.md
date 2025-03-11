@@ -32,3 +32,11 @@ Project requirements:
   - Utilizes modern methods of writing JS, no var keyword. Uses arrow functions where appropriate and uses modern methods (for example .map())
 - App has styling and is polished
 - Incorporate custom CSS to your project. Outside CSS libraries are allowed (Bootstrap, Tailwind, etc), Remove `console.log` statements once you're finished with development. Check for and remove Check for any React errors in the console. Fix linting issues
+
+README updated to include:
+- the public facing url: https://cookingtimes-a3fe7.web.app/
+- Cooking times is a recipe search app that allows you to save your favorite recipes to your recipe box, saving the ingredients and instructions for view later.
+- What worked well in this project?:  Deployment was amazingly smooth. Integrating with the Spoonacular API was easy.  The styling was fairly straight forward.  
+- What didn't work well ?: The integration with Firebase storage was a little challenging, requiring a lot of documentation reading just to read/write from storage.  API key storing was hard too.  Spoonacular's api key were easly stored in .env files where as the firebase ones could not be stored.  Still haven't figured out how to secure those keys.
+- What changes would you make to this project now that it's deployed? I wouldn't have decomposed my REACT components to such a fine granularity.   It made prop drilling a challenge and I decided to use contexts to track state globally. 
+- What would you improve and/or add to this project now that it's deployed?"  I would add new features like a grocery list tool and saving user recipes in to user 'named' folders. 
