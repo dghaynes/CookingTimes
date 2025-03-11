@@ -12,7 +12,9 @@ const RecipeDetail = () => {
     const [recipeDetail, setRecipeDetail] = useState(null);
 
     useEffect( () =>{
+
         fetchRecipeDetails();
+
     }, [recipeId]);
 
     const fetchRecipeDetails = async ()=> {
